@@ -1,0 +1,224 @@
+*{
+margin: 0;
+padding: 0;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+box-sizing: border-box;
+}
+
+img{
+    cursor: pointer;
+}
+
+text, h1 ,h2 ,h3 ,h4, h5, p ,b{
+    cursor:pointer;
+}
+
+body{
+    background: linear-gradient(115deg,#ffffff,#ffc38a);
+    padding: 10px;
+    height: 948px;
+    box-shadow: inset 0 0 50px rgba(247, 132, 0, 0.562);
+    border-radius: 10px;
+}
+
+.main{
+    margin: 10px;
+    box-shadow: 0 10px 10px rgba(255, 115, 0, 0.411);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 9px;
+    font-display:swap;
+    font-variant: small-caps;
+    text-shadow: 0 5px 5px rgba(255, 255, 255, 0.411);
+    display: flex;
+    border: 1px solid #ff6600;
+    color: #ffffff;
+    background: linear-gradient(60deg,#ffa652,#ff5e00);
+}
+
+.maintext{
+    margin-top: -30px;
+    color: #ffffff;
+    margin-left: 40px;
+}
+
+.mainimg{
+    border-radius: 50%;
+    width: 26px;
+    margin-right: 10px;
+    box-shadow: 0 0 10px rgb(255, 102, 0);
+    border: 1px solid rgb(255, 94, 0);
+
+}
+
+.imgm{
+    margin-bottom: -20px;
+    justify-self: center;
+    margin: 20px;
+}
+
+.imgm img{
+        border-radius: 50%;
+        width: 200px;
+        box-shadow: 0 0 40px rgb(255, 102, 0);
+        border: 2px solid #ffffff;
+}
+
+.description{
+    color: #ffa652;
+    text-shadow: 0 10px 10px rgba(255, 102, 0, 0.39);
+    font-size: 20px;
+    justify-self: center;
+}
+
+.descripted0{
+    justify-self:center ;
+    margin: 20px;
+}
+
+.descripted{
+    border: 2px solid #ffa652;
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 600px;
+    justify-self: center;
+    margin-top: 20px;
+    color: #ffa652;
+    text-shadow: 0 5px 10px rgba(255, 102, 0, 0.562);
+    box-shadow: inset 0 0 7px rgba(255, 102, 0, 0.39);
+    z-index: 1000;
+    margin-top: 0px;
+    background: rgb(253, 241, 219);
+}
+
+.desctipted0{
+    justify-self: center;
+    box-shadow: 0 10px 10px rgba(255, 102, 0, 0.397);
+    padding: 10px;
+    border-radius: 10px;
+    width: 620px;
+    border: 1px solid #ffa652;
+    height: 500px;
+    background: linear-gradient(115deg,#ff5e00,#ffa652);
+}
+
+
+.decripted1{
+    background: linear-gradient(155deg,#ffa652,#ffc38a);
+    margin: 10px;
+    justify-self: center;
+    border-radius: 10px;
+    box-shadow: inherit 0 40px rgba(255, 255, 255, 0.562);
+    padding: 20px;
+    height: 419px;
+    width: 600px;
+    color: #ffffff;
+
+}
+
+.equinoxlogo{
+    color: aliceblue;
+    text-shadow: 0 5px 5px rgba(255, 102, 0, 0.562);
+    justify-self: right;
+    margin: 20px;
+    opacity: 70%;
+    margin-top: 30PX;
+}
+.dectext{
+    justify-self: right;
+    display: flex;
+    justify-content: center;
+}
+
+.ptext{
+    color: #ffffff;
+    border: 2px solid #ff5e00;
+    margin: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.phtext{
+    display: none;
+}
+
+.imgon img{
+    max-width: 120000px;
+    width:100%;
+    border-radius: 10px ;
+}
+
+.imgon{
+    box-shadow: inset 0 0 40px rgba(255, 102, 0, 0.562);
+    border-radius: 10px;
+    max-height: 120000px;
+    height: 100%;
+}
+
+
+@media (max-width:600px){
+
+    .desctipted0{
+        width: 300px;
+        justify-self: center;
+        height: 450px;
+        margin: 10px;
+    }
+
+    .decripted1{
+        width: 250px;
+        height: 350px;
+        overflow: hidden;
+        overflow-y: scroll;
+        scrollbar-width: thin;
+        scrollbar-color:transparent transparent;
+        box-shadow: inset 0 0 40px rgba(255, 102, 0, 0.562);
+    }
+
+    .descripted{
+        width: 250px;
+        text-align: center;
+    }
+
+    .imgm img{
+        width: 100px;
+
+    }
+
+    .imgm{
+        margin-bottom: 5px;
+    }
+
+    body{
+        background-color: #ffc38a;
+        height: 900px;
+    }
+
+    .main{
+        justify-self: center;
+        width: 350px;
+    }
+
+    .maintext h1{
+        margin: 10px;
+    }
+
+    .equinoxlogo{
+        font-size: smaller;
+        color: #ff5e00;
+        opacity: 30%;
+        margin-top: 50px ;
+        justify-self: center;
+    }
+
+    .dectext{
+        display: none;
+    }
+
+    .phtext{
+        display: block;
+        display: contents;
+        margin-top: 5px;
+    }
+
+}
+
