@@ -152,6 +152,7 @@ body{
     border-radius: 10px;
     max-height: 120000px;
     height: 100%;
+    
 }
 
 
@@ -172,20 +173,24 @@ body{
         scrollbar-width: thin;
         scrollbar-color:transparent transparent;
         box-shadow: inset 0 0 40px rgba(255, 102, 0, 0.562);
+        justify-self: center;
     }
 
     .descripted{
         width: 250px;
         text-align: center;
+        justify-self: center;
     }
 
     .imgm img{
         width: 100px;
+        justify-self: center;
 
     }
 
     .imgm{
         margin-bottom: 5px;
+        justify-self: center;
     }
 
     body{
@@ -196,10 +201,12 @@ body{
     .main{
         justify-self: center;
         width: 350px;
+        justify-self: center;
     }
 
     .maintext h1{
         margin: 10px;
+        justify-self: center;
     }
 
     .equinoxlogo{
@@ -208,16 +215,19 @@ body{
         opacity: 30%;
         margin-top: 50px ;
         justify-self: center;
+        justify-self: center;
     }
 
     .dectext{
         display: none;
+         justify-self: center;
     }
 
     .phtext{
         display: block;
         display: contents;
         margin-top: 5px;
+         justify-self: center;
     }
 
 }
